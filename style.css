@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 2rem;
+    max-width: 600px;
+  }
+  
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .imagem {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+  }
+  
+  .imagem img {
+    width: 100%;
+    display: block;
+  }
+  
+  .botao {
+    background-color: #22c55e;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #16a34a;
+  }
+  
+  .footer {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 2rem;
+  }
+  
